@@ -182,7 +182,7 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
                         <p>
                             We observe that uneven lighting conditions in real-world nighttime scenes often interact with weather degradations.
                             To synthesize more realistic nighttime images with adverse weather conditions, we introduce an illumination-aware degradation generation approach. 
-                            To account for this, we derive Retinex decomposition~\cite{retinex1} to extract illumination maps as weights for subsequent weather degradation synthesis.
+                            To account for this, we derive Retinex decomposition to extract illumination maps as weights for subsequent weather degradation synthesis.
                         </p>
                     </div>
                 </div>
@@ -199,16 +199,23 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
             <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/image/syn1.png" alt="A table comparing probing to previous approaches"/>
+                    <img src="static/image/datasets1.png" alt="Analysis1"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>Synthetic Subset.</b></em> Qualitative results on AllWeatherNight synthetic testing dataset.
+                        <em><b>Visualization.</b></em> Visualization of 4 different synthesized variants of adverse weather nighttime images, where weather only and flare only indicate synthesis with illumination-aware weather degradation and flare degradation respectively. Our method includes both degradation synthesis. 
                     </h2>
                 </div>
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/image/real1.png" alt="Comparing synthetic data to learnt probes"/>
+                    <img src="static/image/dataset2.png" alt="Analysis2"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>Real-World Subset.</b></em> Qualitative results on AllWeatherNight real-world samples.
+                        <em><b>Quantitative Analysis.</b></em> Comparison of 4 different synthesized variants of nighttime images, where W and F indicate synthesis with illumination-aware weather degradation and flare degradation respectively.
+                    </h2>
+                </div>
+                <div class="item">
+                    <!-- Your image here -->
+                    <img src="static/image/dataset3.png" alt="Analysis3"/>
+                    <h2 class="subtitle has-text-centered">
+                        <em><b>t-SNE.</b></em> The t-SNE map of various nighttime image datasets. From left to right: feature distributions of the haze, rain, and snow nighttime datasets. The adverse weather feature distribution in our AllWeatherNight is closer to real-world nighttime scenes than existing nighttime synthetic datasets.
                     </h2>
                 </div>
             </div>
@@ -223,11 +230,8 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
                 <div class="content">
                     <div class="level-set has-text-justified">
                         <p>
-                            We propose <em>Deep Linear Probe Generators</em> (<strong>ProbeGen</strong>) for learning better probes. ProbeGen optimizes a
-                            deep generator module limited to linear expressivity, that shares information between the
-                            different probes. It then observes the responses from all probes, and trains an MLP classifier on
-                            them. While simple, we demonstrate it greatly enhances probing methods, and also outperforms
-                            other approaches by a large margin.
+                            Left: Comparison to related adverse weather datasets. H, RS, RD and S indicate Haze, Rain Streak, Raindrop and Snow, respectively. F refers to the presence of flares and normal lighting image pairs in datasets.
+                            Right: Real-world and synthetic samples in AllWeatherNight dataset. The synthetic images effectively simulate real-world nighttime scenes with various realistic adverse weather and flare degradations.
                         </p>
                     </div>
                 </div>
@@ -240,12 +244,12 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
-            <img src="static/images/ProbeGen_results.png" alt="Main results of our method ProbeGen"/>
+            <img src="static/image/dataset_comparison.png" alt="dataset_comparison"/>
         </div>
     </div>
 </section>
 
-
+<!-- 
 <section class="section hero is-small">
     <div class="container is-max-desktop">
         <div class="columns is-centered">
@@ -262,8 +266,7 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
             </div>
         </div>
     </div>
-</section>
-
+</section> -->
 
 <section class="section hero is-small">
     <div class="hero-body">
@@ -271,28 +274,16 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
             <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/images/mnist_queries.png" alt="MNIST INR Representation visualization"/>
+                    <img src="static/image/syn1.png" alt="Synthetic visualization"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>MNIST INR Representations.</b></em> ProbeGen chooses object centric locations as suitable for this task,
-                        while Vanilla Probing chooses locations scattered around the image, including pixels far out of the image.
+                        <em><b>Synthetic Subset.</b></em> Qualitative results on AllWeatherNight synthetic testing dataset.
                     </h2>
                 </div>
                 <div class="item">
                     <!-- Your image here -->
-                    <img src="static/images/cifar_queries.png" alt="CIFAR10 Wild Park Representation visualization"/>
+                    <img src="static/image/real1.png" alt="Real-World visualization"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>CIFAR10 Wild Park Representations.</b></em> The values become more uniform as the accuracy of the models
-                        decreases, and sharper as it increases. This suggests that ProbeGen uses some form of prediction
-                        entropy in its classifier. We validate this by training a classifier that only takes the
-                        entropy of each probe as its features, which already reaches a Kendallג€™s ֿ„ of 0.877.
-                    </h2>
-                </div>
-                <div class="item">
-                    <!-- Your image here -->
-                    <img src="static/images/probes_comp_flat_space.png" alt="Comparing the probes learned from different algorithms"/>
-                    <h2 class="subtitle has-text-centered">
-                        <em><b>ProbeGen vs. Vanilla Probing Learned Probes.</b></em> Although both not interpetable by humans,
-                        it is clear that ProbeGen probes have much more structure than latent-optimized ones.
+                        <em><b>Real-World Subset.</b></em> Qualitative results on AllWeatherNight real-world samples.
                     </h2>
                 </div>
             </div>
