@@ -180,6 +180,32 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
                 <div class="content">
                     <div class="level-set has-text-justified">
                         <p>
+                            <em><b>Left</b></em>: Comparison to related adverse weather datasets. H, RS, RD and S indicate Haze, Rain Streak, Raindrop and Snow, respectively. F refers to the presence of flares and normal lighting image pairs in datasets.
+                            <br><em><b>Right</b></em>: Real-world and synthetic samples in AllWeatherNight dataset. The synthetic images effectively simulate real-world nighttime scenes with various realistic adverse weather and flare degradations.
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="hero teaser">
+    <div class="container is-max-desktop">
+        <div class="hero-body">
+            <img src="static/image/dataset_compare.png" alt="dataset_comparison"/>
+        </div>
+    </div>
+</section>
+
+<section class="section hero is-small">
+    <div class="container is-max-desktop">
+        <div class="columns is-centered">
+            <div class="column is-full">
+                <div class="content">
+                    <div class="level-set has-text-justified">
+                        <p>
                             We observe that uneven lighting conditions in real-world nighttime scenes often interact with weather degradations.
                             To synthesize more realistic nighttime images with adverse weather conditions, we introduce an illumination-aware degradation generation approach. 
                             To account for this, we derive Retinex decomposition to extract illumination maps as weights for subsequent weather degradation synthesis.
@@ -224,34 +250,20 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
     </div>
 </section>
 
-<section class="section hero is-small">
-    <div class="container is-max-desktop">
-        <div class="columns is-centered">
-            <div class="column is-full">
-                <div class="content">
-                    <div class="level-set has-text-justified">
-                        <p>
-                            <em><b>Left</b></em>: Comparison to related adverse weather datasets. H, RS, RD and S indicate Haze, Rain Streak, Raindrop and Snow, respectively. F refers to the presence of flares and normal lighting image pairs in datasets.
-                            <br><em><b>Right</b></em>: Real-world and synthetic samples in AllWeatherNight dataset. The synthetic images effectively simulate real-world nighttime scenes with various realistic adverse weather and flare degradations.
-                        </p>
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </div>
-</section>
-
 <section class="hero teaser">
     <div class="container is-max-desktop">
         <div class="hero-body">
-            <img src="static/image/dataset_compare.png" alt="dataset_comparison"/>
+            <h2 class="subtitle has-text-centered">
+            ClearNight effectively removes various types of degradations and cleans nighttime images. It outperforms state-of-the-art methods on both synthetic and real-world adverse weather nighttime images by a non-trivial margin.
+            </h2>
+            <img src="static/image/syn1.png" alt="syn"/>
+            <img src="static/image/real1.png" alt="real"/>
         </div>
     </div>
 </section>
 
 
-<section class="section hero is-small">
+<!-- <section class="section hero is-small">
     <div class="container is-max-desktop">
         <div class="columns is-centered">
             <div class="column is-full">
@@ -266,20 +278,18 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
         </div>
     </div>
 </section>
-
-<section class="section hero is-small">
+ -->
+<!-- <section class="section hero is-small">
     <div class="hero-body">
         <div class="container">
             <div id="results-carousel" class="carousel results-carousel">
                 <div class="item">
-                    <!-- Your image here -->
                     <img src="static/image/syn1.png" alt="Synthetic visualization"/>
                     <h2 class="subtitle has-text-centered">
                         <em><b>Synthetic Subset.</b></em> Qualitative results on AllWeatherNight synthetic testing dataset.
                     </h2>
                 </div>
                 <div class="item">
-                    <!-- Your image here -->
                     <img src="static/image/real1.png" alt="Real-World visualization"/>
                     <h2 class="subtitle has-text-centered">
                         <em><b>Real-World Subset.</b></em> Qualitative results on AllWeatherNight real-world samples.
@@ -288,7 +298,7 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
             </div>
         </div>
     </div>
-</section>
+</section> -->
 
 <!--BibTex citation -->
 <section class="section" id="BibTeX">
