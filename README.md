@@ -5,9 +5,11 @@ This is the official implementation of the paper [ClearNight].
 AllWeatherNight:
 
 #Train
+
 python training_ClearNight.py --Retinex_decomp True
 
 #Test
+
 python testing_ClearNight.py --Retinex_decomp True
 
 # Contact
