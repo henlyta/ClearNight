@@ -152,7 +152,7 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
             <img src="static/image/introduction.png" alt="An overview of our method"/>
             <h2 class="subtitle has-text-centered">
             This work pioneers multi-weather image restoration in nighttime conditions. 
-            We introduce AllWeatherNight, a novel dataset with illumination-aware synthesis to emulate real-world nighttime adverse weather conditions, 
+            We introduce AllWeatherNight, a new dataset with illumination-aware synthesis to emulate real-world nighttime adverse weather conditions, 
             and propose ClearNight, the first unified framework for multi-weather nighttime image restoration.
             </h2>
         </div>
@@ -226,21 +226,28 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
                     <!-- Your image here -->
                     <img src="static/image/dataset1.png" alt="Analysis1"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>Visualization.</b></em> Visualization of 4 different synthesized variants of adverse weather nighttime images, where weather only and flare only indicate synthesis with illumination-aware weather degradation and flare degradation respectively. Our method includes both degradation synthesis. 
+                        <em><b>Distribution of the introduced AllWeatherNight dataset.</b></em> We synthesize 8,000 nighttime images for model training, incorporating multi-degradation and single-degradation scenarios. The test dataset comprises two subsets----synthetic and real-world subset, each containing 1,000 nighttime images.
+                    </h2>
+                </div>
+                <div class="item">
+                    <!-- Your image here -->
+                    <img src="static/image/dataset4.png" alt="Analysis1"/>
+                    <h2 class="subtitle has-text-centered">
+                        <em><b>Dataset analysis.</b></em> We create four distinct synthetic image variants of nighttime scenes to evaluate the effectiveness of our illumination-aware degradation generation using human ranking and NIQE. 
                     </h2>
                 </div>
                 <div class="item">
                     <!-- Your image here -->
                     <img src="static/image/dataset2.png" alt="Analysis2"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>Quantitative Analysis.</b></em> Comparison of 4 different synthesized variants of nighttime images, where W and F indicate synthesis with illumination-aware weather degradation and flare degradation respectively.
+                        <em><b>Visualization.</b></em> Visualization of 4 different synthesized variants of adverse weather nighttime images, where weather only and flare only indicate synthesis with illumination-aware weather degradation and flare degradation respectively. Our method includes both degradation synthesis. 
                     </h2>
                 </div>
                 <div class="item">
                     <!-- Your image here -->
                     <img src="static/image/dataset3.png" alt="Analysis3"/>
                     <h2 class="subtitle has-text-centered">
-                        <em><b>t-SNE.</b></em> The t-SNE map of various nighttime image datasets. From left to right: feature distributions of the haze, rain, and snow nighttime datasets. The adverse weather feature distribution in our AllWeatherNight is closer to real-world nighttime scenes than existing nighttime synthetic datasets.
+                        <em><b>The t-SNE map of various nighttime image datasets.</b></em> From left to right: feature distributions of the haze, rain, and snow nighttime datasets. The adverse weather feature distribution in our AllWeatherNight is closer to real-world nighttime scenes than existing nighttime synthetic datasets.
                     </h2>
                 </div>
             </div>
