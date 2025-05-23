@@ -1,16 +1,31 @@
 # ClearNight
 This is the official implementation of the paper [ClearNight].
+<h1>ClearNight</h1>
 
 # Datasets
-AllWeatherNight:
+AllWeatherNight: 
 
-#Train
+##Train
 
 python training_ClearNight.py --Retinex_decomp True
 
-#Test
+##Test
 
 python testing_ClearNight.py --Retinex_decomp True
+
+# Citation
+
+If you find our work is helpful to your research, please cite the papers as follows:
+
+@misc{ClearNight,
+      title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
+      author={Yuetong Liu and Yunqiu Xu and Yang Wei and Xiuli Bi and Bin Xiao},
+      year={2025},
+      eprint={2505.16479},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV},
+      url={https://arxiv.org/abs/2505.16479}, 
+}
 
 # Contact
 If you have any questions, please contact d230201022@stu.cqupt.edu.cn
