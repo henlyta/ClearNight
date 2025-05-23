@@ -21,7 +21,7 @@ python testing_ClearNight.py --Retinex_decomp True
 If you find our work is helpful to your research, please cite the papers as follows:
 <div>
 <pre>
-@misc{ClearNight,
+@article{liu2025clearnight,
       title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
       author={Yuetong Liu and Yunqiu Xu and Yang Wei and Xiuli Bi and Bin Xiao},
       year={2025},
