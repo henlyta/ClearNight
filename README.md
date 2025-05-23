@@ -1,16 +1,19 @@
 <html>
 <head>
   <style>
-    h1 {
-      width: 50%;
-      margin: 0 auto;
-      text - align: center;
+    .flex - container {
+      display: flex;
+      justify - content: center;
+      align - items: center;
+      height: 100vh;
     }
   </style>
 </head>
   
 <body>
+  <div class="flex - container">
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
+  </div>
 This is the official implementation of the paper <a href="https://arxiv.org/abs/2505.16479"> ClearNight </a>.
 
 <h1>Datasets</h1>
