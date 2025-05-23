@@ -31,7 +31,6 @@ If you find our work is helpful to your research, please cite the papers as foll
       url={https://arxiv.org/abs/2505.16479}, 
 }
 </pre>
-<div>
     <clipboard-copy aria-label="Copy" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@misc{ClearNight,
       title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
       author={Yuetong Liu and Yunqiu Xu and Yang Wei and Xiuli Bi and Bin Xiao},
@@ -48,7 +47,6 @@ If you find our work is helpful to your research, please cite the papers as foll
     <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
 </svg>
     </clipboard-copy>
-  </div>
 </div>
 <h1>Contact</h1>
 If you have any questions, please contact d230201022@stu.cqupt.edu.cn
