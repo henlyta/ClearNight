@@ -1,17 +1,15 @@
+<!DOCTYPE html>
 <html>
 <head>
   <style>
-    .flex - container {
-      display: flex;
-      justify - content: center;
-      align - items: center;
-      height: 100vh;
+    .center - text {
+      text - align: center;
     }
   </style>
 </head>
   
 <body>
-  <div class="flex - container">
+  <div class="center - text">
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
   </div>
 This is the official implementation of the paper <a href="https://arxiv.org/abs/2505.16479"> ClearNight </a>.
