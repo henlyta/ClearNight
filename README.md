@@ -19,7 +19,6 @@ python testing_ClearNight.py --Retinex_decomp True
 <h1>Citation</h1>
 
 If you find our work is helpful to your research, please cite the papers as follows:
-<pre>
 <code>
 @misc{ClearNight,
       title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
@@ -31,6 +30,5 @@ If you find our work is helpful to your research, please cite the papers as foll
       url={https://arxiv.org/abs/2505.16479}, 
 }
 </code>
-</pre>
 <h1>Contact</h1>
 If you have any questions, please contact d230201022@stu.cqupt.edu.cn
