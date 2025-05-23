@@ -1,11 +1,14 @@
 <html>
 <head>
   <style>
-    .center - text {
+    h1 {
+      width: 50%;
+      margin: 0 auto;
       text - align: center;
     }
   </style>
 </head>
+  
 <body>
 <h1 class="center - text">Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
 This is the official implementation of the paper <a href="https://arxiv.org/abs/2505.16479"> ClearNight </a>.
