@@ -1,55 +1,3 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Clear Nights Ahead</title>
-  <style>
-    body {
-      font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-      line-height: 1.6;
-      margin: 40px;
-      background-color: #f9f9f9;
-      color: #333;
-    }
-    h1, h2, h3 {
-      color: #2c3e50;
-    }
-    code, pre {
-      background: #f4f4f4;
-      padding: 10px;
-      border-radius: 6px;
-      display: block;
-      overflow-x: auto;
-    }
-    a {
-      color: #2980b9;
-      text-decoration: none;
-    }
-    a:hover {
-      text-decoration: underline;
-    }
-    .author-list {
-      margin-top: -10px;
-      margin-bottom: 20px;
-    }
-    .author-list a {
-      display: inline-block;
-      margin-right: 10px;
-    }
-    .section {
-      margin-bottom: 40px;
-    }
-    .citation {
-      background: #fdf6e3;
-      border-left: 4px solid #e67e22;
-      padding: 15px;
-    }
-  </style>
-</head>
-  
-<body>
-
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
 <a href="https://github.com/henlyta">Yuetong Liu</a>,
 <a href="#">Yunqiu Xu</a>,
@@ -99,5 +47,3 @@
     <p>If you have any questions, please contact <a href="mailto:d230201022@stu.cqupt.edu.cn">d230201022@stu.cqupt.edu.cn</a></p>
   </div>
 
-</body>
-</html>
