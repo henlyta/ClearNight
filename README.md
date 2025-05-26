@@ -5,10 +5,12 @@
 <a href="#">Xiuli Bi</a>,
 <a href="#">Bin Xiao</a>
 
- ---
+---
+ 
 📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
 🌐 <strong><a href="https://henlyta.github.io/ClearNight/mainpage.html">Project Webpage</a></strong>
 
+---
 
 <div class="section">
     <h2>🗃️ Datasets</h2>
@@ -18,6 +20,8 @@
     </ul>
 </div>
 
+---
+
   <div class="section">
     <h2>🚀 Getting Started</h2>
 <!--     <h3>🏋️‍♂️ Training</h3>
@@ -26,6 +30,8 @@
 <!--<h3>🧪 Testing</h3> -->
 <!--   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre> -->
   </div>
+
+---
 
   <div class="section">
     <h2>📖 Citation</h2>
@@ -40,6 +46,8 @@
       </code></pre>
     </div>
   </div>
+
+---
 
   <div class="section">
     <h2>📬 Contact</h2>
