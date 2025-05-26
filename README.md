@@ -58,7 +58,7 @@
 
  <div class="section">
     <h2>🌐 Project Webpage</h2>
-    <p>This is the official PyTorch implementation of our paper:</p> <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
+    This is the official PyTorch implementation of our paper: <a href="https://arxiv.org/abs/2505.16479">Paper</a>
     <blockquote>
       <strong>Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration</strong><br/>
       Yuetong Liu, Yunqiu Xu, Yang Wei, Xiuli Bi, Bin Xiao<br/>
