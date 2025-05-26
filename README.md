@@ -88,9 +88,11 @@
   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
   </div>
 
+  <pre><code>The source code will be released soon.</code></pre>
+
   <div class="section">
     <h2>📖 Citation</h2>
-    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:
+    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:<br>
       <pre>
 @article{liu2025clearnight,
   title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
