@@ -23,7 +23,7 @@ If you find our work is helpful to your research, please cite the papers as foll
 <pre>
 @article{liu2025clearnight,
       title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
-      author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao Bin},
+      author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
       year={2025},
       journal={arXiv preprint arXiv:2505.16479},
       year={2025}
