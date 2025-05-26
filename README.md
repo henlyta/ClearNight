@@ -54,12 +54,12 @@
 <a href="#">Yunqiu Xu</a>,
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
-<a href="#">Bin Xiao</a><br>
+<a href="#">Bin Xiao</a><br />
 <li>📄 <strong>Paper</strong>: <a href="https://arxiv.org/pdf/2505.16479">Here</a></li>
 
  <div class="section">
     <h2>🌐 Project Webpage</h2>
-    <p>This is the official PyTorch implementation of our paper: </p><a href="https://henlyta.github.io/ClearNight/mainpage.html">Webpage Here</a> 
+    <li>Our project webpage: </p><a href="https://henlyta.github.io/ClearNight/mainpage.html">Webpage Here</a></li>
   </div>
 <div class="section">
     <h2>🗃️ Datasets</h2>
