@@ -5,12 +5,11 @@
 <a href="" target="_blank">Xiuli Bi</a>,
 <a href="" target="_blank">Bin Xiao</a>
 
-<div>
-<h3>Project Webpage</h3>
+##Project Webpage
  
 This is the official implementation of the paper <a href="https://arxiv.org/abs/2505.16479"> ClearNight </a>.
 
-</div>
+
 
 <h3>Datasets</h3>
 
