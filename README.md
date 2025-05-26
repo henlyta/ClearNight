@@ -56,15 +56,9 @@
 <a href="#">Xiuli Bi</a>,
 <a href="#">Bin Xiao</a>
 
-
-<div class="section">
-    📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper on arXiv</a></strong><br/>
-    📂 <strong><a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Dataset on Hugging Face (AllWeatherNight)</a></strong>
-</div>
-
  <div class="section">
     <h2>🌐 Project Webpage</h2>
-    <p>This is the official PyTorch implementation of our paper:</p>
+    <p>This is the official PyTorch implementation of our paper:</p> <strong><a href="https://arxiv.org/abs/2505.16479">Paper on arXiv</a></strong>
     <blockquote>
       <strong>Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration</strong><br/>
       Yuetong Liu, Yunqiu Xu, Yang Wei, Xiuli Bi, Bin Xiao<br/>
@@ -75,7 +69,7 @@
     <h2>🗃️ Datasets</h2>
     <p>We propose a challenging real-world dataset for nighttime restoration under diverse weather conditions:</p>
     <ul>
-      <li>📁 <strong>AllWeatherNight</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Download Here</a></li>
+      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Download Here</a></li>
     </ul>
   </div>
 
