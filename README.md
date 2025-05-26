@@ -50,7 +50,7 @@
 <body>
 
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
-<a href="https://github.com/henlyta">Yuetong Liu</a>
+<a href="https://github.com/henlyta">Yuetong Liu</a>,
 <a href="#">Yunqiu Xu</a>,
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
@@ -60,7 +60,7 @@
 <div class="section">
     📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper on arXiv</a></strong><br/>
     📂 <strong><a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Dataset on Hugging Face (AllWeatherNight)</a></strong>
-  </div>
+</div>
 
 
 <h3>Datasets</h3>
