@@ -54,8 +54,8 @@
 <a href="#">Yunqiu Xu</a>,
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
-<a href="#">Bin Xiao</a>
-<li>📄 <strong>Page</strong>: <a href="https://arxiv.org/pdf/2505.16479">Paper</a></li>
+<a href="#">Bin Xiao</a><br>
+<li>📄 <strong>Paper</strong>: <a href="https://arxiv.org/pdf/2505.16479">Here</a></li>
 
  <div class="section">
     <h2>🌐 Project Webpage</h2>
