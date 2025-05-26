@@ -54,10 +54,10 @@
 <a href="#">Yunqiu Xu</a>,
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
-<a href="#">Bin Xiao</a><br />
-
+<a href="#">Bin Xiao</a>
+<br>
   <div class="section">
-    📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong><br/>
+    📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
     🌐 <strong><a href="[https://huggingface.co/datasets/YuetongLiu/AllWeatherNight](https://henlyta.github.io/ClearNight/mainpage.html)">Project Webpage</a></strong>
   </div>
 
