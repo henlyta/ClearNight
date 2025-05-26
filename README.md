@@ -84,13 +84,13 @@
     <h3>🏋️‍♂️ Training</h3>
     <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre>
 
-    <h3>🧪 Testing</h3>
-    <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
+  <h3>🧪 Testing</h3>
+  <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
   </div>
 
   <div class="section">
     <h2>📖 Citation</h2>
-    <div class="citation">
+    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:
       <pre>
 @article{liu2025clearnight,
   title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
@@ -107,31 +107,5 @@
     <p>If you have any questions, please contact <a href="mailto:d230201022@stu.cqupt.edu.cn">d230201022@stu.cqupt.edu.cn</a></p>
   </div>
 
-<h3>Training and Testing</h3>
-
-##Train
-
-python training_ClearNight.py --Retinex_decomp True
-
-##Test
-
-python testing_ClearNight.py --Retinex_decomp True
-
-<h3>Citation</h3>
-
-If you find our work is helpful to your research, please cite the papers as follows:
-<div>
-<pre>
-@article{liu2025clearnight,
-      title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration}, 
-      author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
-      year={2025},
-      journal={arXiv preprint arXiv:2505.16479},
-      year={2025}
-}
-</pre>
-</div>
-<h3>Contact</h3>
-If you have any questions, please contact d230201022@stu.cqupt.edu.cn
 </body>
 </html>
