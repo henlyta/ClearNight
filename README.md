@@ -24,7 +24,7 @@
     <h2>🚀 Getting Started</h2>
 <!--     <h3>🏋️‍♂️ Training</h3>
     <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre> -->
-<pre><code>The source code will be released soon.</code></pre>
+The source code will be released soon.
 <!--<h3>🧪 Testing</h3> -->
 <!--   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre> -->
   </div>
