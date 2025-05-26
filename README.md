@@ -50,15 +50,13 @@
 <body>
 
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
-<a href="https://github.com/henlyta">Yuetong Liu</a>,
-<a href="" target="_blank">Yunqiu Xu</a>,
-<a href="" target="_blank">Yang Wei</a>,
-<a href="" target="_blank">Xiuli Bi</a>,
-<a href="" target="_blank">Bin Xiao</a>
-
-<h3>Project Webpage</h3>
- 
-This is the official implementation of the paper <a href="https://arxiv.org/abs/2505.16479"> ClearNight </a>.
+  <div class="author-list">
+    <a href="https://github.com/henlyta">Yuetong Liu</a>
+    <a href="#">Yunqiu Xu</a>
+    <a href="#">Yang Wei</a>
+    <a href="#">Xiuli Bi</a>
+    <a href="#">Bin Xiao</a>
+  </div>
 
 <div class="section">
     📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper on arXiv</a></strong><br/>
