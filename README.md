@@ -4,12 +4,11 @@
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
 <a href="#">Bin Xiao</a>
-<br>
 
-<div class="section">
-  📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
-  🌐 <strong><a href="https://henlyta.github.io/ClearNight/mainpage.html">Project Webpage</a></strong>
-</div>
+
+📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
+🌐 <strong><a href="https://henlyta.github.io/ClearNight/mainpage.html">Project Webpage</a></strong>
+
 
 <div class="section">
     <h2>🗃️ Datasets</h2>
