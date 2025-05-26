@@ -13,11 +13,8 @@
 ---
 
 <div class="section">
-    <h2>🗃️ Datasets</h2>
-    <p>We propose a realistic dataset for nighttime multi-weather image restoration:</p>
-    <ul>
-      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a></li>
-    </ul>
+    <h2>🗃️ Datasets</h2>  
+      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a></li>  
 </div>
 
 ---
