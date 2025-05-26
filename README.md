@@ -58,7 +58,7 @@
 
  <div class="section">
     <h2>🌐 Project Webpage</h2>
-    <p>This is the official PyTorch implementation of our paper:</p> <strong><a href="https://arxiv.org/abs/2505.16479">Paper on arXiv</a></strong>
+    <p>This is the official PyTorch implementation of our paper:</p> <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
     <blockquote>
       <strong>Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration</strong><br/>
       Yuetong Liu, Yunqiu Xu, Yang Wei, Xiuli Bi, Bin Xiao<br/>
@@ -67,22 +67,22 @@
   </div>
 <div class="section">
     <h2>🗃️ Datasets</h2>
-    <p>We propose a challenging real-world dataset for nighttime restoration under diverse weather conditions:</p>
+    <p>We propose a realistic dataset for nighttime multi-weather image restoration:</p>
     <ul>
-      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Download Here</a></li>
+      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a></li>
     </ul>
   </div>
 
   <div class="section">
     <h2>🚀 Getting Started</h2>
-    <h3>🏋️‍♂️ Training</h3>
-    <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre>
-
-  <h3>🧪 Testing</h3>
-  <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
+<!--     <h3>🏋️‍♂️ Training</h3>
+    <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre> -->
+<pre><code>The source code will be released soon.</code></pre>
+<!--<h3>🧪 Testing</h3> -->
+<!--   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre> -->
   </div>
 
-  <pre><code>The source code will be released soon.</code></pre>
+
 
   <div class="section">
     <h2>📖 Citation</h2>
