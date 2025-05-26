@@ -14,7 +14,7 @@
 
 <div class="section">
     <h2>🗃️ Datasets</h2>  
-      <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a></li>  
+      📁 <strong>AllWeatherNight</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a>  
 </div>
 
 ---
