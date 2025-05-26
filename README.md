@@ -47,6 +47,7 @@
     }
   </style>
 </head>
+  
 <body>
 
 <h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
@@ -68,7 +69,7 @@
     <ul>
       <li>📁 <strong>Dataset on Hugging Face (AllWeatherNight)</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a></li>
     </ul>
-  </div>
+</div>
 
   <div class="section">
     <h2>🚀 Getting Started</h2>
@@ -83,12 +84,12 @@
     <h2>📖 Citation</h2>
     <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:<br>
       <pre><code>     
-    @article{liu2025clearnight,
-      title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
-      author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
-      journal={arXiv preprint arXiv:2505.16479},
-      year={2025}
-      }
+@article{liu2025clearnight,
+    title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
+    author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
+    journal={arXiv preprint arXiv:2505.16479},
+    year={2025}
+  }
       </code></pre>
     </div>
   </div>
