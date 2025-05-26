@@ -23,7 +23,7 @@ python training_ClearNight.py --Retinex_decomp True
 
 python testing_ClearNight.py --Retinex_decomp True
 
-<h1>Citation</h1>
+<h3>Citation</h3>
 
 If you find our work is helpful to your research, please cite the papers as follows:
 <div>
@@ -37,5 +37,5 @@ If you find our work is helpful to your research, please cite the papers as foll
 }
 </pre>
 </div>
-<h1>Contact</h1>
+<h3>Contact</h3>
 If you have any questions, please contact d230201022@stu.cqupt.edu.cn
