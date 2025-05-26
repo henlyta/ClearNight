@@ -55,15 +55,11 @@
 <a href="#">Yang Wei</a>,
 <a href="#">Xiuli Bi</a>,
 <a href="#">Bin Xiao</a>
+<li>📄 <strong>Page</strong>: <a href="https://arxiv.org/pdf/2505.16479">Paper</a></li>
 
  <div class="section">
     <h2>🌐 Project Webpage</h2>
-    This is the official PyTorch implementation of our paper: <a href="https://arxiv.org/abs/2505.16479">Paper</a>
-    <blockquote>
-      <strong>Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration</strong><br/>
-      Yuetong Liu, Yunqiu Xu, Yang Wei, Xiuli Bi, Bin Xiao<br/>
-      arXiv preprint arXiv:2505.16479
-    </blockquote>
+    <p>This is the official PyTorch implementation of our paper: </p><a href="https://henlyta.github.io/ClearNight/mainpage.html">Webpage Here</a> 
   </div>
 <div class="section">
     <h2>🗃️ Datasets</h2>
@@ -81,8 +77,6 @@
 <!--<h3>🧪 Testing</h3> -->
 <!--   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre> -->
   </div>
-
-
 
   <div class="section">
     <h2>📖 Citation</h2>
