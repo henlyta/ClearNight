@@ -87,13 +87,12 @@
   <div class="section">
     <h2>📖 Citation</h2>
     <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:<br>
-      <pre><code>
+      <pre><code>     
 @article{liu2025clearnight,
   title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
   author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
   journal={arXiv preprint arXiv:2505.16479},
-  year={2025}
-}
+  year={2025}}
       </code></pre>
     </div>
   </div>
