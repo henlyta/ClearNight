@@ -169,15 +169,13 @@ function z(I){var l=arguments.length,O=[];for(var s=1;s<l;++s)O.push(arguments[s
                 <h2 class="title is-3">Abstract</h2>
                 <div class="content has-text-justified">
                     <p>
-                        Restoring nighttime images affected by multiple adverse weather conditions is a practical yet under-explored research problem, as multiple weather conditions often coexist in the real world alongside various lighting effects at night. 
-                        This paper first explores the challenging multi-weather nighttime image restoration task, where various types of weather degradations are intertwined with flare effects.
-                        To support the research, we contribute the AllWeatherNight dataset, featuring 10K high-quality nighttime images with diverse compositional degradations, 
-                        synthesized using our introduced illumination-aware degradation generation.
-                        Moreover, we present ClearNight, a unified nighttime image restoration framework, which effectively removes complex degradations in one go. 
-                        Specifically, ClearNight extracts Retinex-based dual priors and explicitly guides the network to focus on uneven illumination regions and intrinsic texture contents respectively, thereby enhancing restoration effectiveness in nighttime scenarios. 
-                        In order to better represent the common and unique characters of multiple weather degradations, we introduce a weather-aware dynamic specific-commonality collaboration method, which identifies weather degradations and adaptively selects optimal candidate units associated with specific weather types.
-                        Our ClearNight achieves state-of-the-art performance on both synthetic and real-world images.
-                        Comprehensive ablation experiments validate the necessity of AllWeatherNight dataset as well as the effectiveness of ClearNight.
+                        Restoring nighttime images affected by multiple adverse weather conditions is a practical yet under-explored research problem, as multiple weather degradations usually coexist in the real world alongside various lighting effects at night. 
+This paper first explores the challenging multi-weather nighttime image restoration task, where various types of weather degradations are intertwined with flare effects. To support the research, we contribute the AllWeatherNight dataset, featuring large-scale nighttime images with diverse compositional degradations. 
+                        By employing illumination-aware degradation generation, our dataset significantly enhances the realism of synthetic degradations in nighttime scenes, providing a more reliable benchmark for model training and evaluation. 
+                        Additionally, we propose ClearNight, a unified nighttime image restoration framework, which effectively removes complex degradations in one go.
+Specifically, ClearNight extracts Retinex-based dual priors and explicitly guides the network to focus on uneven illumination regions and intrinsic texture contents respectively, thereby enhancing restoration effectiveness in nighttime scenarios. 
+                        Moreover, to more effectively model the common and unique characteristics of multiple weather degradations, ClearNight performs weather-aware dynamic specificity and commonality collaboration that adaptively allocates optimal sub-networks associated with specific weather types.
+Comprehensive experiments on both synthetic and real-world images demonstrate the necessity of the AllWeatherNight dataset and the superior performance of ClearNight.
                     </p>
                 </div>
             </div>
