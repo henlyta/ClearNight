@@ -42,19 +42,17 @@ The source code will be released soon.
 
   <div class="section">
     <h2>📖 Citation</h2>
-    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows:<br />
-     
+    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows: <br />
       <pre><code>    
 @inproceedings{aaai2026clearnight,
     title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
     author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
     booktitle={AAAI},
     year={2026}
-  }
-       
+  }       
       </code></pre>
     </div>
-    <br /> 
+    <br />
   </div>
 
 ---
