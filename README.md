@@ -8,7 +8,7 @@
 ---
  
 📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
-🌐 <strong><a href="https://henlyta.github.io/ClearNight/mainpage.html">Project Webpage</a></strong>
+🌐 <strong><a href="https://henlyta.github.io/ClearNight/index.html">Project Webpage</a></strong>
 
 ---
 
