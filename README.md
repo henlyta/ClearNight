@@ -19,8 +19,6 @@
       📁 <strong>AllWeatherNight</strong>: <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">Here</a>  
 </div> -->
 
----
-
 <div class="section">
     <h2>Abstract</h2>  
     Restoring nighttime images affected by multiple adverse weather conditions is a practical yet under-explored research problem, as multiple weather degradations usually coexist in the real world alongside various lighting effects at night. This paper first explores the challenging multi-weather nighttime image restoration task, where various types of weather degradations are intertwined with flare effects. To support the research, we contribute the AllWeatherNight dataset, featuring large-scale nighttime images with diverse compositional degradations. By employing illumination-aware degradation generation, our dataset significantly enhances the realism of synthetic degradations in nighttime scenes, providing a more reliable benchmark for model training and evaluation.
