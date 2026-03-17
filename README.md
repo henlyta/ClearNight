@@ -9,9 +9,17 @@
 </p>
 ---
  
-📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
-🌐 <strong><a href="https://henlyta.github.io/ClearNight/index.html">Project Webpage</a></strong>
-📁 <strong><a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">AllWeatherNight Dataset</a> </strong>
+<p align="center">
+  <a href="https://arxiv.org/abs/2505.16479">
+    <img src="https://img.shields.io/badge/Paper-Arxiv-red" alt="Paper">
+  </a>
+  <a href="https://henlyta.github.io/ClearNight/index.html">
+    <img src="https://img.shields.io/badge/Project-Webpage-blue" alt="Project">
+  </a>
+  <a href="https://huggingface.co/datasets/YuetongLiu/AllWeatherNight">
+    <img src="https://img.shields.io/badge/Dataset-HuggingFace-yellow" alt="Dataset">
+  </a>
+</p>
 
 ---
 
