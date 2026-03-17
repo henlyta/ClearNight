@@ -1,12 +1,14 @@
 # Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration
 
 <p align="center">
-  <a href="https://github.com/henlyta">Yuetong Liu</a>,
-  <a href="#">Yunqiu Xu</a>,
-  <a href="#">Yang Wei</a>,
-  <a href="#">Xiuli Bi</a>,
-  <a href="#">Bin Xiao</a>
+  <a href="https://scholar.google.com/citations?hl=en&user=46m3WScAAAAJ">Yuetong Liu</a>,
+  <a href="https://scholar.google.com/citations?hl=en&user=SdJX4nAAAAAJ">Yunqiu Xu</a>,
+  <a href="https://scholar.google.com/citations?hl=en&user=CX6eDWUAAAAJ">Yang Wei</a>,
+  <a href="https://scholar.google.com/citations?hl=en&user=1Ezgfw8AAAAJ">Xiuli Bi</a>,
+  <a href="https://ieeexplore.ieee.org/author/37586970100">Bin Xiao</a>
 </p>
+
+
  
 <p align="center">
   <a href="https://arxiv.org/abs/2505.16479">
