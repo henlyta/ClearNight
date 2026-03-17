@@ -1,10 +1,12 @@
-<h1>Clear Nights Ahead: Towards Multi-Weather <br> Nighttime Image Restoration</h1>
-<a href="https://github.com/henlyta">Yuetong Liu</a>,
-<a href="#">Yunqiu Xu</a>,
-<a href="#">Yang Wei</a>,
-<a href="#">Xiuli Bi</a>,
-<a href="#">Bin Xiao</a>
+# Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration
 
+<p align="center">
+  <a href="https://github.com/henlyta">Yuetong Liu</a>,
+  <a href="#">Yunqiu Xu</a>,
+  <a href="#">Yang Wei</a>,
+  <a href="#">Xiuli Bi</a>,
+  <a href="#">Bin Xiao</a>
+</p>
 ---
  
 📄 <strong><a href="https://arxiv.org/abs/2505.16479">Paper</a></strong>
@@ -31,11 +33,13 @@ Additionally, we propose ClearNight, a unified nighttime image restoration frame
 
   <div class="section">
     <h2>🚀 Getting Started</h2>
-<!--     <h3>🏋️‍♂️ Training</h3>
-    <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre> -->
-The source code will be released soon.
-<!--<h3>🧪 Testing</h3> -->
-<!--   <pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre> -->
+  <h3>🏋️‍♂️ Dataset Preparation</h3>
+   
+<h3>🏋️‍♂️ Training</h3> 
+    <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre>
+
+<h3>🧪 Testing</h3>
+<pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
   </div>
 
 ---
