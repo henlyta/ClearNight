@@ -32,26 +32,43 @@ Restoring nighttime images affected by multiple adverse weather conditions is a 
 
 ## 🚀 Getting Started
 
-### 1. Dataset Preparation
+### 1. 🗃️ Dataset Preparation
 Download our **AllWeatherNight** dataset from [Hugging Face](https://huggingface.co/datasets/YuetongLiu/AllWeatherNight). 
 Please organize the dataset directory as follows:
 
+```text
+data/
+├── train/
+│   ├── snow/       # Snow-related degraded input images (includes multiple weather)
+│   ├── snow_gt/    # Snow-related ground truth (clean) images
+│   ├── rain/       # Rain-related degraded input images (includes multiple weather)
+│   ├── rain_gt/    # Rain-related ground truth (clean) images
+│   ├── drop/       # Raindrop-related degraded input images (includes multiple weather)
+│   └── drop_gt/    # Raindrop-related ground truth (clean) images
+└── test/
+    ├── snow/       # Snow-related test input images (includes multiple weather)
+    ├── snow_gt/    # Snow-related test ground truth images
+    ├── rain/       # Rain-related test input images (includes multiple weather)
+    ├── rain_gt/    # Rain-related test ground truth images
+    ├── drop/       # Raindrop-related test input images (includes mixed weather)
+    └── drop_gt/    # Raindrop-related test ground truth images
+
+```
 
 
-
-### 2. Pre-trained Weights
+### 2. 📁 Pre-trained Weights
 To support the training process (perceptual loss and depth guidance), download the following weights and place them in the `./loss/` folder:
 * `vgg16-397923af.pth`
 * `encoder.pth` (from ADDS-DepthNet ICCV 2021)
 * `depth.pth` (from ADDS-DepthNet ICCV 2021)
 
-### 3. Training
+### 3. 🏋️‍♂️ Training
 To start training the **ClearNight** framework with Retinex decomposition:
 ```bash
 python training_ClearNight.py --Retinex_decomp True
 ```
 
-### 4. Testing
+### 4. 🧪 Testing
 To evaluate the model performance on the test set:
 ```bash
 python testing_ClearNight.py --Retinex_decomp True
