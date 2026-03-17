@@ -20,56 +20,59 @@
   </a>
 </p>
 
----
 
 ## 📝 Abstract
 
     Restoring nighttime images affected by multiple adverse weather conditions is a practical yet under-explored research problem, as multiple weather degradations usually coexist in the real world alongside various lighting effects at night. This paper first explores the challenging multi-weather nighttime image restoration task, where various types of weather degradations are intertwined with flare effects. To support the research, we contribute the AllWeatherNight dataset, featuring large-scale nighttime images with diverse compositional degradations. By employing illumination-aware degradation generation, our dataset significantly enhances the realism of synthetic degradations in nighttime scenes, providing a more reliable benchmark for model training and evaluation.
-Additionally, we propose ClearNight, a unified nighttime image restoration framework, which effectively removes complex degradations in one go. Specifically, ClearNight extracts Retinex-based dual priors and explicitly guides the network to focus on uneven illumination regions and intrinsic texture contents respectively, thereby enhancing restoration effectiveness in nighttime scenarios. Moreover, to more effectively model the common and unique characteristics of multiple weather degradations, ClearNight performs weather-aware dynamic specificity and commonality collaboration that adaptively allocates optimal sub-networks associated with specific weather types. Comprehensive experiments on both synthetic and real-world images demonstrate the necessity of the AllWeatherNight dataset and the superior performance of ClearNight.<br /><br />
+Additionally, we propose ClearNight, a unified nighttime image restoration framework, which effectively removes complex degradations in one go. Specifically, ClearNight extracts Retinex-based dual priors and explicitly guides the network to focus on uneven illumination regions and intrinsic texture contents respectively, thereby enhancing restoration effectiveness in nighttime scenarios. Moreover, to more effectively model the common and unique characteristics of multiple weather degradations, ClearNight performs weather-aware dynamic specificity and commonality collaboration that adaptively allocates optimal sub-networks associated with specific weather types. Comprehensive experiments on both synthetic and real-world images demonstrate the necessity of the AllWeatherNight dataset and the superior performance of ClearNight.
 
 <p align="center">
   <img src="https://github.com/henlyta/ClearNight/blob/page/static/image/frame.png?raw=True" width="100%">
 </p>
 
 
----
+## 🚀 Getting Started
+
+### 1. Dataset Preparation
+Download our **AllWeatherNight** dataset from [Hugging Face](https://huggingface.co/datasets/YuetongLiu/AllWeatherNight). 
+Please organize the dataset directory as follows:
 
 
-  <div class="section">
-    <h2>🚀 Getting Started</h2>
-  <h3>🏋️‍♂️ Dataset Preparation</h3>
-   
-<h3>🏋️‍♂️ Training</h3> 
-    <pre><code>python training_ClearNight.py --Retinex_decomp True</code></pre>
 
-<h3>🧪 Testing</h3>
-<pre><code>python testing_ClearNight.py --Retinex_decomp True</code></pre>
-  </div>
 
----
+### 2. Pre-trained Weights
+To support the training process (perceptual loss and depth guidance), download the following weights and place them in the `./loss/` folder:
+* `vgg16-397923af.pth`
+* `encoder.pth` (from ADDS-DepthNet ICCV 2021)
+* `depth.pth` (from ADDS-DepthNet ICCV 2021)
 
-<div class="section">
-    <h2>📖 Citation</h2>
-    <div class="citation">If you find our work is helpful to your research, please cite the papers as follows: <br /><br />
-      <pre><code>    
+### 3. Training
+To start training the **ClearNight** framework with Retinex decomposition:
+```bash
+python training_ClearNight.py --Retinex_decomp True
+```
+
+### 4. Testing
+To evaluate the model performance on the test set:
+```bash
+python testing_ClearNight.py --Retinex_decomp True
+```
+
+## 📖 Citation
+If you find our work helpful for your research, please cite:
+
+```bibtex
 @inproceedings{aaai2026clearnight,
   title={Clear Nights Ahead: Towards Multi-Weather Nighttime Image Restoration},
   author={Liu, Yuetong and Xu, Yunqiu and Wei, Yang and Bi, Xiuli and Xiao, Bin},
   booktitle={AAAI},
   year={2026}
-}       
-      </code></pre>
-    </div>
-</div>
+}
+```
 
 
-  ---
-
-
-  <div class="section">
-    <h2>📬 Contact</h2>
-    <p>If you have any questions, please contact <a href="mailto:d230201022@stu.cqupt.edu.cn">d230201022@stu.cqupt.edu.cn</a></p>
-  </div>
+## 📬 Contact
+If you have any questions, please contact **Yuetong Liu** at [d230201022@stu.cqupt.edu.cn](mailto:d230201022@stu.cqupt.edu.cn).
 
   
 
