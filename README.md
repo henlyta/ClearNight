@@ -55,7 +55,6 @@ data/
 
 ```
 
-
 ### 2. 📁 Pre-trained Weights
 To support the training process (perceptual loss and depth guidance), download the following weights and place them in the `./loss/` folder:
 * `vgg16-397923af.pth`
