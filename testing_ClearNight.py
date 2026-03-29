@@ -8,7 +8,7 @@ import random
 from torch.utils.data import DataLoader
 from torch.autograd import Variable
 import torchvision.transforms as transforms
-from networks.ClearNight import *
+from networks.ClearNight_model import *
 from datasets.dataset_pairs import my_dataset_eval
 from utils.UTILS import compute_psnr
 import cv2
