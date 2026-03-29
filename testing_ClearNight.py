@@ -76,7 +76,7 @@ for d in output_dirs.values():
 trans_eval = transforms.Compose([transforms.ToTensor()])
 
 def get_eval_data(val_in_path, val_gt_path, val_map_path, val_mapf_path, trans_eval=trans_eval):
-    eval_data = my_dataset_eval(root_in=val_in_path, root_label=val_gt_path, root_map=val_map_path,  root_mapf=val_mapf_path, transform=trans_eval, fix_sample=1000)
+    eval_data = my_dataset_eval(root_in=val_in_path, root_label=val_gt_path, root_imap=val_map_path,  root_rmap=val_mapf_path, transform=trans_eval, fix_sample=1000)
     eval_loader = DataLoader(dataset=eval_data, batch_size=1, num_workers=4)
     return eval_loader
 
