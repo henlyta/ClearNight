@@ -50,11 +50,11 @@ data/
 │   ├── drop/       # Raindrop-related degraded input images (includes multiple weather)
 │   └── drop_gt/    # Raindrop-related ground truth (clean) images
 └── test/
-    ├── snow/       # Snow-related test input images (snow_train_test)
+    ├── snow/       # Snow-related test input images 
     ├── snow_gt/    # Snow-related test ground truth images
-    ├── rain/       # Rain-related test input images (rain_train_test)
+    ├── rain/       # Rain-related test input images 
     ├── rain_gt/    # Rain-related test ground truth images
-    ├── drop/       # Raindrop-related test input images (drop_train_test)
+    ├── drop/       # Raindrop-related test input images 
     └── drop_gt/    # Raindrop-related test ground truth images
 
 ```
